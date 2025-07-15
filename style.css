@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Oswald;
+    background-image: url(rodion-kutsaiev-PEm_sLmJT-w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+
+.container{
+    position: relative;
+    left: 500px;
+    top: 70px;
+    height:500px;
+    width: 450px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 25px;
+}
+
+input{
+    position: relative;
+    top: 25px;
+    width: 350px;
+    height: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.048);
+    border-radius: 18px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    position: relative;
+    top: 25px;
+    left: 5px;
+    border: none;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer
+}
+
+button:hover{
+    background-color: rgba(248, 246, 246, 0.637);
+}
+
+.img{
+    position: relative;
+    left: 50px;
+    top: 90px;
+    display: flex;
+}
+
+h4{
+    font-size: 30px;
+}
+
+p{
+    position: relative;
+    top: 120px;
+    right: 90px;
+}
+
+.weather{
+    position: relative;
+    left: 60px;
+}
+.one{
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+
+
+#name{
+    position: relative;
+    bottom: 10px;
+}
+
+#temp{
+    font-size: 60px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+#description{
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    text-transform: uppercase;
+}
+
+.two{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 90px;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    right: 80px;
+    gap: 100px;
+}
+
+#humindity{
+    width: 220px;
+    height: 110px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#wind{
+    width: 220px;
+    height: 110px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#pressure{
+    width: 220px;
+    height: 110px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#visibility{
+    width: 220px;
+    height: 110px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
